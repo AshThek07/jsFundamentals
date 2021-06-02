@@ -1,0 +1,36 @@
+body {
+    background-color: #caf7e3;
+  }
+  
+  img {
+    max-width: 250px;
+    border-radius: 50%;
+    cursor: grab;
+  }
+  #header {
+    display: flex;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .container > div:nth-child(1) {
+    flex: 1;
+  }
+  
+  
+  .container > div:nth-child(2) {
+    flex: 3;
+  }
+  #noBullets{
+    list-style-type: none;
+    padding: 5px;
+}
+
+
+  
